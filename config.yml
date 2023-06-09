@@ -80,11 +80,9 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/Think_source"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Reed-yang"
 
   analytics:
     google:
