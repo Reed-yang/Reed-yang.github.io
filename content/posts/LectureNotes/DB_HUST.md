@@ -425,11 +425,34 @@ Armstrong公理系统：
 
   <img src="http://img.reedyoung.cn/image-20230619024848503.png" alt="image-20230619024848503" style="zoom: 25%;" />
 
+### 属性闭包与函数依赖集最小化
 
+函数依赖闭包$F^+$一般难求，转而求属性集的闭包
 
+属性集闭包$X_F^+$求法：(下图描述很复杂，其实很简单)
 
+<img src="http://img.reedyoung.cn/image-20230619232254188.png" alt="image-20230619232254188" style="zoom: 25%;" />
 
+**最小依赖集**
 
+每一个函数依赖集都等价于一个最小依赖集->需要进行极小化处理
+
+1. <img src="http://img.reedyoung.cn/image-20230619233531866.png" alt="image-20230619233531866" style="zoom: 33%;" />
+
+2. <img src="http://img.reedyoung.cn/image-20230619233550071.png" alt="image-20230619233550071" style="zoom:33%;" />
+3. <img src="http://img.reedyoung.cn/image-20230619233600312.png" alt="image-20230619233600312" style="zoom:33%;" />
+
+注意：F的最小依赖集不一定唯一，与对各个函数依赖的处置顺序有关
+
+通过两个示例来理解：
+
+- 、根据(2)检查依赖
+
+<img src="http://img.reedyoung.cn/image-20230619234146915.png" alt="image-20230619234146915" style="zoom:33%;" />
+
+- 根据(3)检查左侧属性集
+
+<img src="http://img.reedyoung.cn/image-20230619234120651.png" alt="image-20230619234120651" style="zoom:33%;" />
 
 ## 七 数据库设计
 
