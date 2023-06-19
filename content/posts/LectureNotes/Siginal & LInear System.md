@@ -1,8 +1,8 @@
 ---
 title: Signal&LinearSystem
-author:Reed
-time:2023/6/11
-category: [notes, LectureNotes]
+author: Reed
+time: 2023/6/11
+category: LectureNotes
 ---
 
 ## Ch.1 绪论
