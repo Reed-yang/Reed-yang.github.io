@@ -1,5 +1,7 @@
 ---
 title: "pytorch_collection"
+date: 2022-10-14T15:11:37+00:00
+tags: ['project', 'Open_World_3d']
 ---
 - ```python
   torch.from_numpy(i)

@@ -1,5 +1,7 @@
 ---
 title: "Markdown 语法"
+date: 2022-05-06T21:22:05+00:00
+tags: ['uncategorized']
 ---
 # Markdown语法及Typora输入
 
@@ -24,9 +26,6 @@ Markdown 使用电子邮件样式>字符进行块引用。它们表示为：
 > 这是一个引用
 >
 > > 引用的级别
-
-
-
 
 ## 水平线
 
@@ -103,8 +102,6 @@ Markdown 支持两种类型的链接：内联和引用。
 
 要创建内联链接，请在链接文本的结束方括号后立即使用一组常规括号。在常规括号内，输入URL地址，以及可选的用引号括起来的链接标题。
 
-
-
 ### 参考链接
 
 ```
@@ -123,8 +120,6 @@ This is [an example][id] reference-style link.
 
 [id]: http://example.com/  "Optional Title Here"
 
-
-
 ```
 This is [an example][id] reference-style link.
 
@@ -132,10 +127,6 @@ This is [an example][id] reference-style link.
 
 [id]: http://example.com/  "Optional Title Here"
 ```
-
-
-
-
 
 ## 更改字体、大小、颜色
 
@@ -176,7 +167,6 @@ Markdown 支持有序列表和无序列表。无序列表使用星号`*`、加�
 + 第二项
 + 第三项
 
-
 - 第一项
 - 第二项
 - 第三项
@@ -191,7 +181,6 @@ Markdown 支持有序列表和无序列表。无序列表使用星号`*`、加�
 + 第一项
 + 第二项
 + 第三项
-
 
 - 第一项
 

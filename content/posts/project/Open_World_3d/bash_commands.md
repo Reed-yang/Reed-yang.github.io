@@ -1,5 +1,7 @@
 ---
 title: "bash_commands"
+date: 2022-10-13T16:13:16+00:00
+tags: ['project', 'Open_World_3d']
 ---
 - `.sh`是bash脚本文件，通过`./name.sh`来运行
 
@@ -37,7 +39,5 @@ CUDA_VISIBLE_DEVICES=${gpuid}  python -u test_cylinder_asym.py \
 ---
 
 tmux
-
-
 
 ---

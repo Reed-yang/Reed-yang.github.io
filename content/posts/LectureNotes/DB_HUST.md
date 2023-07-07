@@ -1,9 +1,8 @@
 ---
-title: DB_HUST
+title: "DB_HUST"
+date: 2023-04-06T10:42:45+00:00
+tags: ['LectureNotes']
 ---
-
-[TOC]
-
 ## 0. 复习课：考点
 
 ### **第一章** **绪论**
@@ -170,10 +169,6 @@ title: DB_HUST
 
 了解封锁的粒度，了解活锁和死锁。
 
- 
-
-
-
 ## 一 绪论
 
 ### 三级模式和两级映象
@@ -184,18 +179,18 @@ title: DB_HUST
 
   - 模式：逻辑模式；逻辑结构
 
-  <img src="http://img.reedyoung.cn/image-20230618220104767.png" alt="image-20230618220104767" style="zoom:33%;" />
+  <img src="http://img.reedyoung.cn/image-20230618220104767.png" alt="image-20230618220104767" style="zoom:33%;margin: 0 auto;" />
 
   - 外模式；
 
-  <img src="http://img.reedyoung.cn/image-20230618220136373.png" alt="image-20230618220136373" style="zoom:33%;" />
+  <img src="http://img.reedyoung.cn/image-20230618220136373.png" alt="image-20230618220136373" style="zoom:33%;margin: 0 auto;" />
 
   - 内模式：存储模式 / 物理模式;存储结构
 
 - 二级映象
 
-  - <img src="http://img.reedyoung.cn/image-20230618220352648.png" alt="image-20230618220352648" style="zoom:33%;" />
-  - <img src="http://img.reedyoung.cn/image-20230618220405817.png" alt="image-20230618220405817" style="zoom:33%;" />
+  - <img src="http://img.reedyoung.cn/image-20230618220352648.png" alt="image-20230618220352648" style="zoom:33%;margin: 0 auto;" />
+  - <img src="http://img.reedyoung.cn/image-20230618220405817.png" alt="image-20230618220405817" style="zoom:33%;margin: 0 auto;" />
 
 三级结构与二级映象的目的是为了实现数据独立性，即：当内模式、模式发生改变时可以通过改变系统的映象来使应用程序不必改变
 
@@ -203,19 +198,13 @@ title: DB_HUST
 
 外模式 /  模式映象——数据的逻辑独立性：
 
-<img src="http://img.reedyoung.cn/image-20230618220904679.png" alt="image-20230618220904679" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230618220904679.png" alt="image-20230618220904679" style="zoom: 33%;margin: 0 auto;" />
 
 模式 / 内模式映象——数据的物理独立性：
 
-<img src="http://img.reedyoung.cn/image-20230618221019717.png" alt="image-20230618221019717" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230618221019717.png" alt="image-20230618221019717" style="zoom:33%;margin: 0 auto;" />
 
 ### 数据库系统优点
-
-
-
-
-
-
 
 ## 二 关系代数(关系数据库)
 
@@ -231,15 +220,15 @@ title: DB_HUST
 
 - 关系的性质
 
-  <img src="http://img.reedyoung.cn/image-20230618223226610.png" alt="image-20230618223226610" style="zoom:33%;" />
+  <img src="http://img.reedyoung.cn/image-20230618223226610.png" alt="image-20230618223226610" style="zoom:33%;margin: 0 auto;" />
 
 候选码、主码、外部码：
 
-<img src="http://img.reedyoung.cn/image-20230618223410124.png" alt="image-20230618223410124" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230618223410124.png" alt="image-20230618223410124" style="zoom: 33%;margin: 0 auto;" />
 
 关系数据结构的一个实例：
 
-<img src="http://img.reedyoung.cn/image-20230618223627554.png" alt="image-20230618223627554" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230618223627554.png" alt="image-20230618223627554" style="zoom: 33%;margin: 0 auto;" />
 
 关系模式：一个关系的描述；需要包含：关系名，属性名，每个属性的域(也就是数据类型)，属性间的数据依赖
 
@@ -277,7 +266,7 @@ title: DB_HUST
 
 ## 三 SQL
 
-<img src="http://img.reedyoung.cn/image-20230417090912383.png" alt="image-20230417090912383" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230417090912383.png" alt="image-20230417090912383" style="zoom:33%;margin: 0 auto;" />
 
 ### 数据定义功能
 
@@ -312,8 +301,6 @@ drop database 数据库名
 - 建索引：实际上就是 记录的关键字与其相应地址的对应表
 - 建视图
 
-
-
 ### 数据查询功能
 
 *掌握简单查询、嵌套查询、分组查询、集合查询、查询视图。*
@@ -326,13 +313,11 @@ select from where
 
 order by
 
-<img src="http://img.reedyoung.cn/image-20230619010443473.png" alt="image-20230619010443473" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230619010443473.png" alt="image-20230619010443473" style="zoom: 33%;margin: 0 auto;" />
 
 group by
 
-<img src="http://img.reedyoung.cn/image-20230619010722136.png" alt="image-20230619010722136" style="zoom:33%;" />
-
-
+<img src="http://img.reedyoung.cn/image-20230619010722136.png" alt="image-20230619010722136" style="zoom:33%;margin: 0 auto;" />
 
 ### 视图
 
@@ -342,7 +327,7 @@ group by
 
 ---
 
-<img src="http://img.reedyoung.cn/image-20230619011137912.png" alt="image-20230619011137912" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619011137912.png" alt="image-20230619011137912" style="zoom:33%;margin: 0 auto;" />
 
 ```mysql
 create view 视图名
@@ -379,21 +364,21 @@ create view 视图名
 
 平凡函数依赖：没什么信息量，所以平凡
 
-<img src="http://img.reedyoung.cn/image-20230619022216114.png" alt="image-20230619022216114" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619022216114.png" alt="image-20230619022216114" style="zoom:33%;margin: 0 auto;" />
 
 非平凡的函数依赖：Y不是X的子集
 
 部分 / 完全函数依赖：关于 子集 能不能决定Y
 
-<img src="http://img.reedyoung.cn/image-20230619023002717.png" alt="image-20230619023002717" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619023002717.png" alt="image-20230619023002717" style="zoom:33%;margin: 0 auto;" />
 
 传递函数依赖：字面义
 
 范式与规范化：
 
-<img src="http://img.reedyoung.cn/image-20230619023637936.png" alt="image-20230619023637936" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619023637936.png" alt="image-20230619023637936" style="zoom:33%;margin: 0 auto;" />
 
-<img src="http://img.reedyoung.cn/image-20230619023646816.png" alt="image-20230619023646816" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619023646816.png" alt="image-20230619023646816" style="zoom:33%;margin: 0 auto;" />
 
 ### 函数依赖公理系统
 
@@ -405,25 +390,25 @@ create view 视图名
 
 逻辑蕴含：
 
-<img src="http://img.reedyoung.cn/image-20230619024533959.png" alt="image-20230619024533959" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619024533959.png" alt="image-20230619024533959" style="zoom:33%;margin: 0 auto;" />
 
 Armstrong公理系统：
 
-<img src="http://img.reedyoung.cn/image-20230619024629938.png" alt="image-20230619024629938" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619024629938.png" alt="image-20230619024629938" style="zoom:33%;margin: 0 auto;" />
 
 推理规则：
 
 - 合并规则
 
-  <img src="http://img.reedyoung.cn/image-20230619024739800.png" alt="image-20230619024739800" style="zoom: 25%;" />
+  <img src="http://img.reedyoung.cn/image-20230619024739800.png" alt="image-20230619024739800" style="zoom: 25%;margin: 0 auto;" />
 
 - 分解规则
 
-<img src="http://img.reedyoung.cn/image-20230619024824753.png" alt="image-20230619024824753" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230619024824753.png" alt="image-20230619024824753" style="zoom: 25%;margin: 0 auto;" />
 
 - 为传递规则
 
-  <img src="http://img.reedyoung.cn/image-20230619024848503.png" alt="image-20230619024848503" style="zoom: 25%;" />
+  <img src="http://img.reedyoung.cn/image-20230619024848503.png" alt="image-20230619024848503" style="zoom: 25%;margin: 0 auto;" />
 
 ### 属性闭包与函数依赖集最小化
 
@@ -431,16 +416,16 @@ Armstrong公理系统：
 
 属性集闭包$X_F^+$求法：(下图描述很复杂，其实很简单)
 
-<img src="http://img.reedyoung.cn/image-20230619232254188.png" alt="image-20230619232254188" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230619232254188.png" alt="image-20230619232254188" style="zoom: 25%;margin: 0 auto;" />
 
 **最小依赖集**
 
 每一个函数依赖集都等价于一个最小依赖集->需要进行极小化处理
 
-1. <img src="http://img.reedyoung.cn/image-20230619233531866.png" alt="image-20230619233531866" style="zoom: 33%;" />
+1. <img src="http://img.reedyoung.cn/image-20230619233531866.png" alt="image-20230619233531866" style="zoom: 33%;margin: 0 auto;" />
 
-2. <img src="http://img.reedyoung.cn/image-20230619233550071.png" alt="image-20230619233550071" style="zoom:33%;" />
-3. <img src="http://img.reedyoung.cn/image-20230619233600312.png" alt="image-20230619233600312" style="zoom:33%;" />
+2. <img src="http://img.reedyoung.cn/image-20230619233550071.png" alt="image-20230619233550071" style="zoom:33%;margin: 0 auto;" />
+3. <img src="http://img.reedyoung.cn/image-20230619233600312.png" alt="image-20230619233600312" style="zoom:33%;margin: 0 auto;" />
 
 注意：F的最小依赖集不一定唯一，与对各个函数依赖的处置顺序有关
 
@@ -448,11 +433,11 @@ Armstrong公理系统：
 
 - 、根据(2)检查依赖
 
-<img src="http://img.reedyoung.cn/image-20230619234146915.png" alt="image-20230619234146915" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619234146915.png" alt="image-20230619234146915" style="zoom:33%;margin: 0 auto;" />
 
 - 根据(3)检查左侧属性集
 
-<img src="http://img.reedyoung.cn/image-20230619234120651.png" alt="image-20230619234120651" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619234120651.png" alt="image-20230619234120651" style="zoom:33%;margin: 0 auto;" />
 
 ## 七 数据库设计
 
@@ -472,8 +457,6 @@ Armstrong公理系统：
 
 E-R图部分：暂略
 
-
-
 将实体转化为关系模式：比较直观
 
 将联系转化为关系模式：
@@ -490,19 +473,15 @@ E-R图部分：暂略
 
 一般转换为一个关系模式，该关系的码是各实体码的组合
 
-
-
 ## 八 数据库存储
 
 *掌握数据库存储结构（文件、页、元组）*
-
-
 
 ## 九 查询优化
 
 *掌握逻辑优化*
 
-<img src="http://img.reedyoung.cn/image-20230619121620369.png" alt="image-20230619121620369" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619121620369.png" alt="image-20230619121620369" style="zoom:33%;margin: 0 auto;" />
 
 - 关系代数等价变换规则
 
@@ -511,10 +490,6 @@ E-R图部分：暂略
 投影串接：一次选出最终所需列
 
 选择串接：一次检查全部选择条件
-
-
-
-
 
 ## 十 数据库恢复技术
 
@@ -532,9 +507,7 @@ E-R图部分：暂略
 
 - ACID
 
-<img src="http://img.reedyoung.cn/image-20230619142046578.png" alt="image-20230619142046578" style="zoom:33%;" />
-
-
+<img src="http://img.reedyoung.cn/image-20230619142046578.png" alt="image-20230619142046578" style="zoom:33%;margin: 0 auto;" />
 
 - 基于日志的恢复策略
 
@@ -542,15 +515,11 @@ E-R图部分：暂略
   - 系统故障的恢复：
   - 介质故障的恢复
 
-  <img src="http://img.reedyoung.cn/image-20230619144551815.png" alt="image-20230619144551815" style="zoom:33%;" />
+  <img src="http://img.reedyoung.cn/image-20230619144551815.png" alt="image-20230619144551815" style="zoom:33%;margin: 0 auto;" />
 
 - 检查点的恢复策略：
 
-<img src="http://img.reedyoung.cn/image-20230619144733174.png" alt="image-20230619144733174" style="zoom:33%;" />
-
-
-
-
+<img src="http://img.reedyoung.cn/image-20230619144733174.png" alt="image-20230619144733174" style="zoom:33%;margin: 0 auto;" />
 
 ## 十一 并发
 
@@ -564,7 +533,7 @@ E-R图部分：暂略
 
  丢失更新：
 
-<img src="http://img.reedyoung.cn/image-20230619150723795.png" alt="image-20230619150723795" style="zoom:25%;" />
+<img src="http://img.reedyoung.cn/image-20230619150723795.png" alt="image-20230619150723795" style="zoom:25%;margin: 0 auto;" />
 
 读脏数据：读取后原数据更改，所读取的就变"脏"
 
@@ -574,22 +543,20 @@ E-R图部分：暂略
 
 - Xlock
 
-<img src="http://img.reedyoung.cn/image-20230619151323013.png" alt="image-20230619151323013" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619151323013.png" alt="image-20230619151323013" style="zoom:33%;margin: 0 auto;" />
 
 - Slock
 
-<img src="http://img.reedyoung.cn/image-20230619151348258.png" alt="image-20230619151348258" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619151348258.png" alt="image-20230619151348258" style="zoom:33%;margin: 0 auto;" />
 
 - 三级封锁协议；
   - 一级封锁协议：修改前加X锁
   - 二级封锁协议：读前加S锁
   - 三级封锁协议：改为仅当事务T结束时才释放锁
 
-<img src="http://img.reedyoung.cn/image-20230619153559316.png" alt="image-20230619153559316" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230619153559316.png" alt="image-20230619153559316" style="zoom:33%;margin: 0 auto;" />
 
 ### 并发调度
-
-
 
 ### 两段锁协议
 
@@ -597,13 +564,7 @@ E-R图部分：暂略
 
 能够保证冲突可串行化
 
-
-
 强严格2PL：释放时事务结束阶段释放全部封锁。
-
-
-
-
 
 ---
 

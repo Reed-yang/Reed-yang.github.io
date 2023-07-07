@@ -1,11 +1,9 @@
 ---
 title: "TPO71IndWrit"
+date: 2023-03-17T11:13:45+00:00
+tags: ['Tofel', 'First_Toefl_rec']
 ---
 ~~score my essay about a toefl independent writing task about Do you agree or disagree with the following statement？ Grades (marks) encourage students to learn. Use specific reasons and examples to support your answer.~~ 
-
-
-
-
 
 It is difficult to refute that **grades regulate students to grind on studying**, and such a fact leads impressionable individuals to form the view that **marks itself is play an encouraging role in promoting students to learn**. However, such a claim is fraught with logical and factual inconsistencies, and it warrants careful examination.
 

@@ -1,5 +1,7 @@
 ---
 title: "NTU ML"
+date: 2022-09-15T20:44:30+00:00
+tags: ['LectureNotes']
 ---
 This note is the lecture note for [李宏毅(NTU) machine learning 2022](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php)
 
@@ -27,11 +29,11 @@ This note is the lecture note for [李宏毅(NTU) machine learning 2022](https:/
 
   用sigmoid函数表达一个piecewise linear curve
 
-​	<img src="http://img.reedyoung.cn/image-20220915221127215.png" alt="image-20220915221127215" style="zoom: 33%;" />
+​	<img src="http://img.reedyoung.cn/image-20220915221127215.png" alt="image-20220915221127215" style="zoom: 33%;margin: 0 auto;" />
 
 - epoch与batch
 
-​	<img src="C:\Users\杨思源\AppData\Roaming\Typora	ypora-user-images\image-20220915235644151.png" alt="image-20220915235644151" style="zoom: 33%;" />
+​	<img src="C:\Users\杨思源\AppData\Roaming\Typora\typora-user-images\image-20220915235644151.png" alt="image-20220915235644151" style="zoom: 33%;margin: 0 auto;" />
 
 ### Class Material
 
@@ -51,8 +53,6 @@ This note is the lecture note for [李宏毅(NTU) machine learning 2022](https:/
 
 - 模型复杂度model complexity
 
-  $\mathcal{H}$是模型参数可取值的集合，用其元素个数$\left | \mathcal{H} ight |$表示模型复杂度
+  $\mathcal{H}$是模型参数可取值的集合，用其元素个数$\left | \mathcal{H} \right |$表示模型复杂度
 
-  <img src="C:\Users\杨思源\AppData\Roaming\Typora	ypora-user-images\image-20220916164234379.png" alt="image-20220916164234379" style="zoom:50%;" />
-  
-   
+  <img src="C:\Users\杨思源\AppData\Roaming\Typora\typora-user-images\image-20220916164234379.png" alt="image-20220916164234379" style="zoom:50%;margin: 0 auto;" />

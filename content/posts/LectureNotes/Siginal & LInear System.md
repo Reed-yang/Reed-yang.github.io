@@ -2,7 +2,9 @@
 title: Signal&LinearSystem
 author: Reed
 time: 2023/6/11
-category: LectureNotes
+category: [notes, LectureNotes]
+date: 2023-04-10T20:49:28+00:00
+tags: ['LectureNotes']
 ---
 
 ## Ch.1 绪论
@@ -13,19 +15,19 @@ category: LectureNotes
 
 信号的平均功率
 
-<img src="http://img.reedyoung.cn/image-20230410210537473.png" alt="image-20230410210537473" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230410210537473.png" alt="image-20230410210537473" style="zoom:50%;margin: 0 auto;" />
 
 能量信号与功率信号：
 
-<img src="http://img.reedyoung.cn/image-20230410210624353.png" alt="image-20230410210624353" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230410210624353.png" alt="image-20230410210624353" style="zoom:50%;margin: 0 auto;" />
 
 ### 系统
 
 What is a System?
 
-<img src="http://img.reedyoung.cn/image-20230410211139200.png" alt="image-20230410211139200" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230410211139200.png" alt="image-20230410211139200" style="zoom: 25%;margin: 0 auto;" />
 
-<img src="http://img.reedyoung.cn/image-20230410211204338.png" alt="image-20230410211204338" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230410211204338.png" alt="image-20230410211204338" style="zoom: 25%;margin: 0 auto;" />
 
 线性系统与非线性系统
 
@@ -33,44 +35,42 @@ What is a System?
 
 零输入响应和零状态响应
 
-<img src="http://img.reedyoung.cn/image-20230410213753029.png" alt="image-20230410213753029" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230410213753029.png" alt="image-20230410213753029" style="zoom:33%;margin: 0 auto;" />
 
 时不变系统：响应形状不随激励的施加时间而改变
 
-<img src="http://img.reedyoung.cn/image-20230610114750467.png" alt="image-20230610114750467" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230610114750467.png" alt="image-20230610114750467" style="zoom: 33%;margin: 0 auto;" />
 
 因果系统：响应不早于激励的系统
 
-<img src="http://img.reedyoung.cn/image-20230610114818015.png" alt="image-20230610114818015" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230610114818015.png" alt="image-20230610114818015" style="zoom:50%;margin: 0 auto;" />
 
 ## Ch.2 连续系统的时域分析
 
 线性时不变系统的数学模型 $\rightarrow$ 线性常系数微分方程
 
-<img src="http://img.reedyoung.cn/image-20230610121940634.png" alt="image-20230610121940634" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230610121940634.png" alt="image-20230610121940634" style="zoom: 33%;margin: 0 auto;" />
 
-经典法：<img src="http://img.reedyoung.cn/image-20230610122013554.png" alt="image-20230610122013554" style="zoom: 33%;" />
-
-
+经典法：<img src="http://img.reedyoung.cn/image-20230610122013554.png" alt="image-20230610122013554" style="zoom: 33%;margin: 0 auto;" />
 
 ### ZIR / ZSR 方法：
 
-<img src="http://img.reedyoung.cn/image-20230610124611825.png" alt="image-20230610124611825" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610124611825.png" alt="image-20230610124611825" style="zoom:33%;margin: 0 auto;" />
 
 算子表示法 转移算子
 
-<img src="http://img.reedyoung.cn/image-20230610125749485.png" alt="image-20230610125749485" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230610125749485.png" alt="image-20230610125749485" style="zoom:50%;margin: 0 auto;" />
 
 算子的性质
 
 1. p多项式可以展开和因式分解
-2. <img src="http://img.reedyoung.cn/image-20230610125924938.png" alt="image-20230610125924938" style="zoom:33%;" />
-3. <img src="http://img.reedyoung.cn/image-20230610130044723.png" alt="image-20230610130044723" style="zoom: 25%;" />
-4. <img src="http://img.reedyoung.cn/image-20230610130103824.png" alt="image-20230610130103824" style="zoom:25%;" />
+2. <img src="http://img.reedyoung.cn/image-20230610125924938.png" alt="image-20230610125924938" style="zoom:33%;margin: 0 auto;" />
+3. <img src="http://img.reedyoung.cn/image-20230610130044723.png" alt="image-20230610130044723" style="zoom: 25%;margin: 0 auto;" />
+4. <img src="http://img.reedyoung.cn/image-20230610130103824.png" alt="image-20230610130103824" style="zoom:25%;margin: 0 auto;" />
 
 零状态 vs 零输入：
 
-<img src="http://img.reedyoung.cn/image-20230610143523245.png" alt="image-20230610143523245" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230610143523245.png" alt="image-20230610143523245" style="zoom: 33%;margin: 0 auto;" />
 
 零输入响应求解：与齐次通解求法相同，待定系数直接由初始条件求出
 
@@ -88,19 +88,19 @@ What is a System?
 
 单位阶跃响应$r_\epsilon(t)$
 
-<img src="http://img.reedyoung.cn/image-20230610141133231.png" alt="image-20230610141133231" style="zoom:25%;" />
+<img src="http://img.reedyoung.cn/image-20230610141133231.png" alt="image-20230610141133231" style="zoom:25%;margin: 0 auto;" />
 
 求单位冲激响应
 
-<img src="http://img.reedyoung.cn/image-20230610142406236.png" alt="image-20230610142406236" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230610142406236.png" alt="image-20230610142406236" style="zoom: 33%;margin: 0 auto;" />
 
-<img src="http://img.reedyoung.cn/image-20230610142524528.png" alt="image-20230610142524528" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610142524528.png" alt="image-20230610142524528" style="zoom:33%;margin: 0 auto;" />
 
 即：求$D(p)h_0(t)=\delta(t)$时，按照$D(p)h_0(t)=0$和附加的初始条件来求零输入即可
 
 例题：
 
-<img src="http://img.reedyoung.cn/image-20230610144747373.png" alt="image-20230610144747373" style="zoom:25%;" />
+<img src="http://img.reedyoung.cn/image-20230610144747373.png" alt="image-20230610144747373" style="zoom:25%;margin: 0 auto;" />
 
 ### 转移算子 部分分式
 
@@ -108,29 +108,29 @@ What is a System?
 
 简单系统：
 
-1. <img src="http://img.reedyoung.cn/image-20230610145001629.png" alt="image-20230610145001629" style="zoom: 33%;" />
-2. <img src="http://img.reedyoung.cn/image-20230610145019359.png" alt="image-20230610145019359" style="zoom: 25%;" />
-3. <img src="http://img.reedyoung.cn/image-20230610145049144.png" alt="image-20230610145049144" style="zoom: 25%;" />
+1. <img src="http://img.reedyoung.cn/image-20230610145001629.png" alt="image-20230610145001629" style="zoom: 33%;margin: 0 auto;" />
+2. <img src="http://img.reedyoung.cn/image-20230610145019359.png" alt="image-20230610145019359" style="zoom: 25%;margin: 0 auto;" />
+3. <img src="http://img.reedyoung.cn/image-20230610145049144.png" alt="image-20230610145049144" style="zoom: 25%;margin: 0 auto;" />
 
 一些零状态响应的激励 / 响应对照：
 
-<img src="http://img.reedyoung.cn/image-20230610151024742.png" alt="image-20230610151024742" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610151024742.png" alt="image-20230610151024742" style="zoom:33%;margin: 0 auto;" />
 
 ### 卷积
 
-<img src="http://img.reedyoung.cn/image-20230610151414875.png" alt="image-20230610151414875" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610151414875.png" alt="image-20230610151414875" style="zoom:33%;margin: 0 auto;" />
 
 卷积的图解法：
 
-<img src="http://img.reedyoung.cn/image-20230610151514889.png" alt="image-20230610151514889" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230610151514889.png" alt="image-20230610151514889" style="zoom: 25%;margin: 0 auto;" />
 
 **卷积的性质**：
 
-<img src="http://img.reedyoung.cn/image-20230610152017540.png" alt="image-20230610152017540" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610152017540.png" alt="image-20230610152017540" style="zoom:33%;margin: 0 auto;" />
 
 卷积的微分与积分：
 
-<img src="http://img.reedyoung.cn/image-20230610152106852.png" alt="image-20230610152106852" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610152106852.png" alt="image-20230610152106852" style="zoom:33%;margin: 0 auto;" />
 
 常用公式：(当有一函数可化为冲击函数时)
 $$
@@ -138,7 +138,7 @@ f_{1}(t) * f_{2}(t)=\frac{d f_{1}(t)}{d t} * \int_{-\infty}^{t} f_{2}(\tau) d \t
 $$
 奇异信号的卷积特性:
 
-<img src="http://img.reedyoung.cn/image-20230610152137671.png" alt="image-20230610152137671" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610152137671.png" alt="image-20230610152137671" style="zoom:33%;margin: 0 auto;" />
 
 零输入响应 零状态响应
 
@@ -150,27 +150,27 @@ $$
 
 ### 函数的正交
 
-<img src="http://img.reedyoung.cn/image-20230610163759328.png" alt="image-20230610163759328" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610163759328.png" alt="image-20230610163759328" style="zoom:33%;margin: 0 auto;" />
 
 常见的完备正交函数集
 
-<img src="http://img.reedyoung.cn/image-20230610164046350.png" alt="image-20230610164046350" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230610164046350.png" alt="image-20230610164046350" style="zoom: 25%;margin: 0 auto;" />
 
 ### 傅里叶级数
 
 ### 傅里叶积分 $ \rightarrow $ 傅里叶变换
 
-<img src="http://img.reedyoung.cn/image-20230610171409405.png" alt="image-20230610171409405" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610171409405.png" alt="image-20230610171409405" style="zoom:33%;margin: 0 auto;" />
 
 傅里叶变换式：
 
 - 单边指数函数：
 
-  <img src="http://img.reedyoung.cn/image-20230610171526147.png" alt="image-20230610171526147" style="zoom: 25%;" />
+  <img src="http://img.reedyoung.cn/image-20230610171526147.png" alt="image-20230610171526147" style="zoom: 25%;margin: 0 auto;" />
 
 - 双边指数信号
 
-  <img src="http://img.reedyoung.cn/image-20230610171936192.png" alt="image-20230610171936192" style="zoom:25%;" />
+  <img src="http://img.reedyoung.cn/image-20230610171936192.png" alt="image-20230610171936192" style="zoom:25%;margin: 0 auto;" />
 
 - 单位冲激：
   $$
@@ -184,65 +184,53 @@ $$
 - 线性特性：略
 - 延时特性
 
-<img src="http://img.reedyoung.cn/image-20230610174604195.png" alt="image-20230610174604195" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174604195.png" alt="image-20230610174604195" style="zoom:33%;margin: 0 auto;" />
 
 - 移频
 
-<img src="http://img.reedyoung.cn/image-20230610174617626.png" alt="image-20230610174617626" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174617626.png" alt="image-20230610174617626" style="zoom:33%;margin: 0 auto;" />
 
 - 尺度变换
 
-<img src="http://img.reedyoung.cn/image-20230610174628790.png" alt="image-20230610174628790" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174628790.png" alt="image-20230610174628790" style="zoom:33%;margin: 0 auto;" />
 
 - 奇偶
 
-<img src="http://img.reedyoung.cn/image-20230610174652559.png" alt="image-20230610174652559" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230610174652559.png" alt="image-20230610174652559" style="zoom: 25%;margin: 0 auto;" />
 
 - 对称
 
-<img src="http://img.reedyoung.cn/image-20230610174712855.png" alt="image-20230610174712855" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174712855.png" alt="image-20230610174712855" style="zoom:33%;margin: 0 auto;" />
 
 - 微分：
 
-<img src="http://img.reedyoung.cn/image-20230610174816378.png" alt="image-20230610174816378" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174816378.png" alt="image-20230610174816378" style="zoom:33%;margin: 0 auto;" />
 
 - 积分
 
-<img src="http://img.reedyoung.cn/image-20230610174830981.png" alt="image-20230610174830981" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174830981.png" alt="image-20230610174830981" style="zoom:33%;margin: 0 auto;" />
 
 卷积定理：
 
-<img src="http://img.reedyoung.cn/image-20230610174850083.png" alt="image-20230610174850083" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610174850083.png" alt="image-20230610174850083" style="zoom:33%;margin: 0 auto;" />
 
 Parseval's定理
 
-<img src="http://img.reedyoung.cn/image-20230610175002582.png" alt="image-20230610175002582" style="zoom: 50%;" />
-
-
-
-
-
-
+<img src="http://img.reedyoung.cn/image-20230610175002582.png" alt="image-20230610175002582" style="zoom: 50%;margin: 0 auto;" />
 
 ## Ch.4 连续时间系统的频域分析
 
 ### 频域分析法与系统函数
 
-<img src="http://img.reedyoung.cn/image-20230610190838795.png" alt="image-20230610190838795" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610190838795.png" alt="image-20230610190838795" style="zoom:33%;margin: 0 auto;" />
 $$
 \Rightarrow
 $$
-<img src="http://img.reedyoung.cn/image-20230610190909300.png" alt="image-20230610190909300" style="zoom: 50%;" />
+<img src="http://img.reedyoung.cn/image-20230610190909300.png" alt="image-20230610190909300" style="zoom: 50%;margin: 0 auto;" />
 
 频域分析步骤：
 
-<img src="http://img.reedyoung.cn/image-20230610191007922.png" alt="image-20230610191007922" style="zoom: 33%;" />
-
-
-
-
-
-
+<img src="http://img.reedyoung.cn/image-20230610191007922.png" alt="image-20230610191007922" style="zoom: 33%;margin: 0 auto;" />
 
 ## Ch.5 连续时间系统的复频域分析
 
@@ -254,11 +242,11 @@ $$
 
 - 常见信号的拉普拉斯变换
 
-<img src="http://img.reedyoung.cn/image-20230610224956287.png" alt="image-20230610224956287" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610224956287.png" alt="image-20230610224956287" style="zoom:33%;margin: 0 auto;" />
 
 - 性质
 
-<img src="http://img.reedyoung.cn/image-20230610214009307.png" alt="image-20230610214009307" style="zoom: 67%;" />
+<img src="http://img.reedyoung.cn/image-20230610214009307.png" alt="image-20230610214009307" style="zoom: 67%;margin: 0 auto;" />
 
 拉普拉斯逆变换
 
@@ -266,19 +254,15 @@ $$
 
 - 部分分式展开法
 
-<img src="http://img.reedyoung.cn/image-20230610213856946.png" alt="image-20230610213856946" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610213856946.png" alt="image-20230610213856946" style="zoom:33%;margin: 0 auto;" />
 
 系统函数
 
 初值定理和终值定理的要点：
 
-<img src="http://img.reedyoung.cn/image-20230610224438852.png" alt="image-20230610224438852" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230610224438852.png" alt="image-20230610224438852" style="zoom: 33%;margin: 0 auto;" />
 
 画图，把n导数和系数的画法背下来
-
-
-
-
 
 ## Ch.6 连续时间系统的系统函数
 
@@ -286,13 +270,13 @@ $$
 
 ### z-p点分布与频响特性
 
-<img src="http://img.reedyoung.cn/image-20230610235940529.png" alt="image-20230610235940529" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230610235940529.png" alt="image-20230610235940529" style="zoom:33%;margin: 0 auto;" />
 
 ### 线性系统的稳定性
 
 对于任何有界的输⼊，其响应也是有界的。
 
-<img src="http://img.reedyoung.cn/image-20230611001202393.png" alt="image-20230611001202393" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230611001202393.png" alt="image-20230611001202393" style="zoom:33%;margin: 0 auto;" />
 
 ## Ch.7 离散时间系统的时域分析
 
@@ -310,13 +294,13 @@ $$
 
 离散信号的变换和运算
 
-<img src="http://img.reedyoung.cn/image-20230611004805213.png" alt="image-20230611004805213" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230611004805213.png" alt="image-20230611004805213" style="zoom: 33%;margin: 0 auto;" />
 
 移序算子
 
-<img src="http://img.reedyoung.cn/image-20230611005004196.png" alt="image-20230611005004196" style="zoom:25%;" />
+<img src="http://img.reedyoung.cn/image-20230611005004196.png" alt="image-20230611005004196" style="zoom:25%;margin: 0 auto;" />
 
-<img src="http://img.reedyoung.cn/image-20230611005029896.png" alt="image-20230611005029896" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230611005029896.png" alt="image-20230611005029896" style="zoom: 33%;margin: 0 auto;" />
 
 差分算子
 
@@ -324,17 +308,17 @@ $$
 
 连续和离散之间的近似：
 
-<img src="http://img.reedyoung.cn/image-20230611005300073.png" alt="image-20230611005300073" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230611005300073.png" alt="image-20230611005300073" style="zoom:50%;margin: 0 auto;" />
 
 离散时间系统用差分方程来描述
 
 线性移不变离散时间系统
 
-<img src="http://img.reedyoung.cn/image-20230611005732966.png" alt="image-20230611005732966" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230611005732966.png" alt="image-20230611005732966" style="zoom:50%;margin: 0 auto;" />
 
 ### 常系数差分方程求解
 
-<img src="http://img.reedyoung.cn/image-20230611010147720.png" alt="image-20230611010147720" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230611010147720.png" alt="image-20230611010147720" style="zoom:33%;margin: 0 auto;" />
 
 迭代法
 
@@ -342,11 +326,11 @@ $$
 
 通解：
 
-<img src="http://img.reedyoung.cn/image-20230611011456824.png" alt="image-20230611011456824" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230611011456824.png" alt="image-20230611011456824" style="zoom:33%;margin: 0 auto;" />
 
 特解：
 
-<img src="http://img.reedyoung.cn/image-20230611011150457.png" alt="image-20230611011150457" style="zoom: 33%;" />
+<img src="http://img.reedyoung.cn/image-20230611011150457.png" alt="image-20230611011150457" style="zoom: 33%;margin: 0 auto;" />
 
 ZIR / ZSR 方法：
 
@@ -354,19 +338,81 @@ ZIR / ZSR 方法：
 
 离散时间系统的单位样值响应：
 
-<img src="http://img.reedyoung.cn/image-20230611011704774.png" alt="image-20230611011704774" style="zoom:33%;" />
+<img src="http://img.reedyoung.cn/image-20230611011704774.png" alt="image-20230611011704774" style="zoom:33%;margin: 0 auto;" />
 
 求$h(n)$关键在于，在n=0时将接入的激励转化为起始条件，即x(0), x(-1)..的值
 
+### 卷积和
 
+性质
 
+<img src="http://img.reedyoung.cn/image-20230611015304992.png" alt="image-20230611015304992" style="zoom:50%;margin: 0 auto;" />
 
+<img src="http://img.reedyoung.cn/image-20230611015419725.png" alt="image-20230611015419725" style="zoom: 50%;margin: 0 auto;" />
+
+<img src="http://img.reedyoung.cn/image-20230611015643200.png" alt="image-20230611015643200" style="zoom:50%;margin: 0 auto;" />
+
+## Ch.8 离散时间系统的变换域分析
+
+### Z变换
+
+<img src="http://img.reedyoung.cn/image-20230611022110917.png" alt="image-20230611022110917" style="zoom:33%;margin: 0 auto;" />
+
+### 典型序列的Z变换
+
+- 单位样值序列
+
+<img src="http://img.reedyoung.cn/image-20230611023158774.png" alt="image-20230611023158774" style="zoom:33%;margin: 0 auto;" />
+
+- 单位阶跃序列、单边指数序列
+
+<img src="http://img.reedyoung.cn/image-20230611023235535.png" alt="image-20230611023235535" style="zoom:33%;margin: 0 auto;" />
+
+性质：
+
+<img src="http://img.reedyoung.cn/image-20230611023320352.png" alt="image-20230611023320352" style="zoom:33%;margin: 0 auto;" />
+
+- 正弦序列Z变换
+
+<img src="http://img.reedyoung.cn/image-20230611023357863.png" alt="image-20230611023357863" style="zoom:33%;margin: 0 auto;" />
+
+- 时移性质
+
+​			对离散时间信号, 若有:
+$$
+f(n) \Leftrightarrow F(z)
+$$
+​				则
+$$
+\begin{array}{c}
+f(n+1) \Leftrightarrow z(F(z)-f(0)) \\
+f(n+l) \Leftrightarrow z^{l}\left(F(z)-\sum_{i=0}^{l-1} f(i) z^{-i}\right)
+\end{array}
+$$
+
+- 尺度变换
+
+<img src="http://img.reedyoung.cn/image-20230611023810854.png" alt="image-20230611023810854" style="zoom: 25%;margin: 0 auto;" />
+
+- 微分：
+
+<img src="http://img.reedyoung.cn/image-20230611024106284.png" alt="image-20230611024106284" style="zoom:25%;margin: 0 auto;" />
+
+- 卷积
+
+<img src="http://img.reedyoung.cn/image-20230611024125067.png" alt="image-20230611024125067" style="zoom:25%;margin: 0 auto;" />
+
+- 初值定理和终值定理
+
+<img src="http://img.reedyoung.cn/image-20230611024148912.png" alt="image-20230611024148912" style="zoom:25%;margin: 0 auto;" />
+
+### 逆Z变换
 
 ---
 
 ## questions
 
-- <img src="http://img.reedyoung.cn/image-20230610114115154.png" alt="image-20230610114115154" style="zoom:33%;" />
+- <img src="http://img.reedyoung.cn/image-20230610114115154.png" alt="image-20230610114115154" style="zoom:33%;margin: 0 auto;" />
 
 - ![image-20230610171837662](http://img.reedyoung.cn/image-20230610171837662.png)
 
@@ -374,4 +420,4 @@ ZIR / ZSR 方法：
 
 - 冲激响应为什么和零输入响应这么像？
 
-- 
+- ![image-20230611015111974](http://img.reedyoung.cn/image-20230611015111974.png)

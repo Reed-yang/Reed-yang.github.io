@@ -1,5 +1,7 @@
 ---
 title: "MIT6.031 Software Construction"
+date: 2023-04-12T08:33:33+00:00
+tags: ['LectureNotes']
 ---
 [TOC]
 
@@ -27,7 +29,7 @@ The simplest version of this program defines a **main** method within a class:
 
  ```java
  public class HelloWorld{
- 
+
     static public void main(String[] args){
       System.out.println("Hello world!");
    }
@@ -153,7 +155,7 @@ Example use:
 List<String> lyst = new ArrayList<String>();
 
 # Add some strings to lyst
-    
+
 # Open an iterator on lyst
 Iterator<String> i = lyst.iterator();
 
@@ -165,8 +167,6 @@ while (i.hasNext()){
 ```
 
 ### Defining Classes
-
-
 
 ##  [Reading 1: Static Checking](http://web.mit.edu/6.031/www/sp21/classes/01-static-checking)
 
@@ -235,8 +235,6 @@ In Java, statements generally have to be inside a method, and every method has t
 - **Easy to understand**. The code has to communicate to future programmers who need to understand it and make changes in it (fixing bugs or adding new features). That future programmer might be you, months or years from now. You’ll be surprised how much you forget if you don’t write it down, and how much it helps your own future self to have a good design.
 - **Ready for change**. Software always changes. Some designs make it easy to make changes; others require throwing away and rewriting a lot of code.
 
-
-
 ## Reading 2: Basic Java
 
 Java compiler must also be certain that every variable has been assigned a value before we attempt to access its value.
@@ -252,7 +250,7 @@ s = s + "b";
 
 `String` is an example of an *immutable* type, thus:
 
-<img src="http://img.reedyoung.cn/image-20230414161258274.png" alt="image-20230414161258274" style="zoom:50%;" />
+<img src="http://img.reedyoung.cn/image-20230414161258274.png" alt="image-20230414161258274" style="zoom:50%;margin: 0 auto;" />
 
 By contrast, [`StringBuilder`](http://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/StringBuilder.html) (another built-in Java class) is a *mutable* object
 

@@ -1,5 +1,7 @@
 ---
 title: "Open-world Semantic Segmentation for LIDAR Point Clouds"
+date: 2022-10-04T20:55:42+00:00
+tags: ['papereading', 'open world']
 ---
 提出 REAL
 
@@ -19,8 +21,6 @@ title: "Open-world Semantic Segmentation for LIDAR Point Clouds"
 
   generative model-based methods：
 
-  
-
   Stochastic Gradient Langevin Dynamics (SGLD)
 
 - Open-world 
@@ -29,12 +29,12 @@ title: "Open-world Semantic Segmentation for LIDAR Point Clouds"
 
 - REAL: Redundancy Classifier Framework
 
-  <img src="http://img.reedyoung.cn/56853689a038000f7ec943b5793eb97a_4_Figure_2.png" alt="56853689a038000f7ec943b5793eb97a_4_Figure_2" style="zoom: 80%;" />
+  <img src="http://img.reedyoung.cn/56853689a038000f7ec943b5793eb97a_4_Figure_2.png" alt="56853689a038000f7ec943b5793eb97a_4_Figure_2" style="zoom: 80%;margin: 0 auto;" />
 
 - Oseg: Open-set Semantic Segmentation
 
   将模型从$\mathcal{M}_c$训练到$\mathcal{M}_o$ ，提出两个训练策略：Unknown Object Synthesis，Predictive Distribution Calibration
-  
+
   - Unknown Object Synthesis
   - Predictive Distribution Calibration
 
@@ -45,7 +45,7 @@ title: "Open-world Semantic Segmentation for LIDAR Point Clouds"
 - [x] open-world 和 open-set 有何不同
 
   不必太关注open-world 与 open-set 差异，但可以多留意生成式模型的后续研究
-  
+
 - [ ] 为什么uncertainty-based methods: the network predicts the novel classes as old classes with high confidence scores
 
 - [ ] “cGAN只能重建通道信息而保持几何信息不变”是什么意思，为什么这种特性就不适用点云语义分割
@@ -54,13 +54,9 @@ title: "Open-world Semantic Segmentation for LIDAR Point Clouds"
 
 - [ ] Cylinder3D文章中写到：由于室内采用的传统分割方法(PointNet...)的性能依赖于点云分布的均匀性和密度不变性，不能直接迁移到室外点云分割；实际面对室内场景分割，传统方法和Cylinder3D方法哪个更好？原因是什么？(室内种类多 / 点云均匀性与密度)
 
-
-
 [classifier](https://en.wikipedia.org/wiki/Statistical_classification)
 
 ---
-
-
 
 Problem: Open-World problem, comprising **Oseg** *open-set semantic segmantation* & **IL** *incremental learning*
 

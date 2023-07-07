@@ -1,7 +1,8 @@
 ---
 title: "SQL必知必会(4th Edition)"
+date: 2023-04-17T10:12:21+00:00
+tags: ['Booknotes']
 ---
-
 
 #### SELECT, FROM, ORDER BY
 
@@ -25,7 +26,7 @@ WHERE prod_price = 3.49;
 
 tip: 同时使用WHERE和ORDER BY, 应让ORDER BY 在WHERE 之后
 
-<img src="http://img.reedyoung.cn/image-20230417101907765.png" alt="image-20230417101907765" style="zoom: 67%;" />
+<img src="http://img.reedyoung.cn/image-20230417101907765.png" alt="image-20230417101907765" style="zoom: 67%;margin: 0 auto;" />
 
 #### 范围查询BETWEEN AND
 

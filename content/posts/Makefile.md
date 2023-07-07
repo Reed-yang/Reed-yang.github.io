@@ -1,5 +1,7 @@
 ---
 title: "Makefile"
+date: 2022-08-22T20:20:33+00:00
+tags: ['uncategorized']
 ---
 - 什么是Makefile
 

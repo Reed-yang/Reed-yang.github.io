@@ -23,6 +23,10 @@ function process_files() {
             else
                 echo "文件 $file 已包含 YAML front matter。"
             fi
+
+            # 修改图片链接的样式 而且 合并多个连续的 margin: 0 auto;
+            sed -i -E '/<img src="[^"]+" alt="[^"]+" style="zoom:[^"]+;" \/>/ {N; s/(<img src="[^"]+" alt="[^"]+" style="zoom:[^"]+;" \/>\n)(style="zoom:[^"]+;")/\1style="zoom:\3; margin: 0 auto;"/}' "$file"
+            echo "为文件 $file 添加图片链接的样式修改，并合并多个 margin: 0 auto;。"
         fi
     done
 }
@@ -32,5 +36,3 @@ root_folder="./"
 
 # 调用函数处理文件夹及其子文件夹中的 .md 文件
 process_files "$root_folder"
-
-

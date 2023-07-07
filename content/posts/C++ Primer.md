@@ -1,5 +1,7 @@
 ---
 title: "C++ Primer"
+date: 2022-05-03T17:52:19+00:00
+tags: ['uncategorized']
 ---
 # C++ Primer
 

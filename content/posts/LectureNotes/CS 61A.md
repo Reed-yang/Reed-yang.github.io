@@ -1,5 +1,7 @@
 ---
 title: "CS 61A"
+date: 2022-05-06T20:20:39+00:00
+tags: ['LectureNotes']
 ---
 ### Lecture 1 Intro
 
@@ -7,11 +9,11 @@ title: "CS 61A"
 
 - 函数签名Function ***signature***
 
-<img src="https://s2.loli.net/2022/05/03/DycwasqbxNHL6Sd.png" alt="image-20220430112729904" style="zoom:50%;" />
+<img src="https://s2.loli.net/2022/05/03/DycwasqbxNHL6Sd.png" alt="image-20220430112729904" style="zoom:50%;margin: 0 auto;" />
 
 - 函数体Function ***body***
 
-  <img src="https://s2.loli.net/2022/05/03/vd5c264TnPFsOYp.png" alt="image-20220430113537980" style="zoom:50%;" />
+  <img src="https://s2.loli.net/2022/05/03/vd5c264TnPFsOYp.png" alt="image-20220430113537980" style="zoom:50%;margin: 0 auto;" />
 
 - ***Frame***
 
@@ -27,7 +29,7 @@ title: "CS 61A"
 
 另一种条件句形式
 
-<img src="https://s2.loli.net/2022/08/07/7Gp1l8uFBItCEy4.png" alt="image-20220807102142758" style="zoom:50%;" />
+<img src="https://s2.loli.net/2022/08/07/7Gp1l8uFBItCEy4.png" alt="image-20220807102142758" style="zoom:50%;margin: 0 auto;" />
 
 函数print的返回值是None
 
@@ -35,7 +37,7 @@ title: "CS 61A"
 
 ***Higher-Order Functions*** 高阶函数
 
-<img src="https://s2.loli.net/2022/08/08/zXP7OJ9bRspDVQk.png" alt="image-20220808095919018" style="zoom: 33%;" />
+<img src="https://s2.loli.net/2022/08/08/zXP7OJ9bRspDVQk.png" alt="image-20220808095919018" style="zoom: 33%;margin: 0 auto;" />
 
 ***currying*** 柯里化 把多参数函数化为单一参数高阶函数
 
@@ -43,7 +45,7 @@ title: "CS 61A"
 
 ***Decorator*** 装饰器
 
-<img src="https://s2.loli.net/2022/08/10/VNkBCZciPmUMXr1.png" alt="image-20220810112607368" style="zoom: 50%;" />
+<img src="https://s2.loli.net/2022/08/10/VNkBCZciPmUMXr1.png" alt="image-20220810112607368" style="zoom: 50%;margin: 0 auto;" />
 
 ### Midterm
 
@@ -55,7 +57,7 @@ This expression/Evaluates to/Interactive Output
       def g():
           return arg
       return g
-  
+
   delay(delay)()(6)()
   """">>>
   	delayed
@@ -73,8 +75,6 @@ This expression/Evaluates to/Interactive Output
 3. Assume that *fact*(n-1) is correct
 4. Verify that fact(n) is correct, assuming that fact(n-1) is correct
 
-
-
 **Mutual Recurion** 相互递归
 
 ```python
@@ -84,7 +84,7 @@ def luhn_sum(n):
     else:
 		all_but_last, last = split(n)
         return luhn_sum_double(all_but_last) + last
-    
+
 def luhn_sum_double(n):
 	all_but_last, last = split(n)
     luhn_digit = sum_digits(2 * last)
@@ -102,15 +102,15 @@ Tree-shaped processes arise whenever executing the body of a recursive function 
 
 - ***Lists*** 列表
 
-<img src="https://s2.loli.net/2022/08/11/ICmJcj3xkzur9Ob.png" alt="image-20220811155619280" style="zoom:50%;" />
+<img src="https://s2.loli.net/2022/08/11/ICmJcj3xkzur9Ob.png" alt="image-20220811155619280" style="zoom:50%;margin: 0 auto;" />
 
 - **for** statement - sequence unpacking
 
-<img src="https://s2.loli.net/2022/08/11/gL9FOtGyBATosR6.png" alt="image-20220811164407829" style="zoom: 50%;" />
+<img src="https://s2.loli.net/2022/08/11/gL9FOtGyBATosR6.png" alt="image-20220811164407829" style="zoom: 50%;margin: 0 auto;" />
 
 - **range** 注意序列值域，左包括，右不包括
 
-<img src="https://s2.loli.net/2022/08/13/6XGUmaKZkyMgBch.png" alt="image-20220813111931270" style="zoom:56%;" />
+<img src="https://s2.loli.net/2022/08/13/6XGUmaKZkyMgBch.png" alt="image-20220813111931270" style="zoom:56%;margin: 0 auto;" />
 
 - **List comprehension** 列表推导式
 
@@ -122,27 +122,25 @@ Tree-shaped processes arise whenever executing the body of a recursive function 
 
 其中的 ` if ` 条件判断根据需要可有可无。
 
-<img src="https://s2.loli.net/2022/08/13/CAe1hXuGNYjOxSL.png" alt="image-20220813113038765" style="zoom:50%;" />
+<img src="https://s2.loli.net/2022/08/13/CAe1hXuGNYjOxSL.png" alt="image-20220813113038765" style="zoom:50%;margin: 0 auto;" />
 
 - ***Abstraction barrier*** 以有理数的抽象为例
 
-<img src="https://s2.loli.net/2022/08/13/RCMevfTV9dEFjAo.png" alt="image-20220813170621055" style="zoom: 67%;" />
+<img src="https://s2.loli.net/2022/08/13/RCMevfTV9dEFjAo.png" alt="image-20220813170621055" style="zoom: 67%;margin: 0 auto;" />
 
 违反抽象界限的例子：
 
-<img src="https://s2.loli.net/2022/08/13/jMaQFkWRyrlJtqS.png" alt="image-20220813170836217" style="zoom:50%;" />
+<img src="https://s2.loli.net/2022/08/13/jMaQFkWRyrlJtqS.png" alt="image-20220813170836217" style="zoom:50%;margin: 0 auto;" />
 
 - Data Abstraction 只关心通过数据“行为”进行的表示，而不关心具体实现——即通过数据使用的行为可定义数据的表示。
 
 例：使用函数而非列表构造的有理数Data Implementation
 
-<img src="https://s2.loli.net/2022/08/13/N4jy8EweI23dpzC.png" alt="image-20220813182732822" style="zoom:67%;" />
+<img src="https://s2.loli.net/2022/08/13/N4jy8EweI23dpzC.png" alt="image-20220813182732822" style="zoom:67%;margin: 0 auto;" />
 
 - **Dictionary** 字典 a congregation of key-value pairs 键值对的集合
 
 - Lists的复杂操作：
-
-
 
 ### Lecture 9 Functional Decomposition & Debugging
 

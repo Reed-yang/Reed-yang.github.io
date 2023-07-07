@@ -1,5 +1,7 @@
 ---
 title: "Modern CMake"
+date: 2022-05-03T17:52:30+00:00
+tags: ['uncategorized']
 ---
 # Modern CMake
 

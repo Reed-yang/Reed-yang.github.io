@@ -1,5 +1,7 @@
 ---
 title: "23sp Exam Schedule"
+date: 2023-03-25T13:02:07+00:00
+tags: ['uncategorized']
 ---
 **Major-CS**
 

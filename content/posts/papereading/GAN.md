@@ -1,5 +1,7 @@
 ---
 title: "GAN"
+date: 2022-09-17T19:59:51+00:00
+tags: ['papereading']
 ---
 ## questions
 

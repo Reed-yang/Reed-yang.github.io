@@ -1,5 +1,7 @@
 ---
 title: "9-24-weekly_report"
+date: 2022-09-24T01:55:58+00:00
+tags: ['Scratch', 'diary', '2022']
 ---
 progress
 

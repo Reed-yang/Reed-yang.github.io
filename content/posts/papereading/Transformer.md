@@ -1,5 +1,7 @@
 ---
 title: "Transformer"
+date: 2022-09-17T20:15:07+00:00
+tags: ['papereading']
 ---
 论文阅读顺序：
 
@@ -12,8 +14,6 @@ title: "Transformer"
 7. 实验
 8. 评论
 
-
-
 Multi-headed Attention: 为了模拟CNN可以达到多通道输出
 
 ### Model Architecture
@@ -22,7 +22,7 @@ Multi-headed Attention: 为了模拟CNN可以达到多通道输出
 
 ​	：(对于decoder)过去时刻的输出也会作为当前时刻的输入
 
-<img src="http://img.reedyoung.cn/image-20230411103531006.png" alt="image-20230411103531006" style="zoom: 67%;" />
+<img src="http://img.reedyoung.cn/image-20230411103531006.png" alt="image-20230411103531006" style="zoom: 67%;margin: 0 auto;" />
 
 LayerNorm vs. BatchNorm
 
@@ -34,11 +34,11 @@ LayerNorm vs. BatchNorm
 
 ​	LayerNorm就是对每个样本(包含了样本的特征feature)做Normalization
 
-<img src="http://img.reedyoung.cn/image-20230411122954746.png" alt="image-20230411122954746" style="zoom: 25%;" />
+<img src="http://img.reedyoung.cn/image-20230411122954746.png" alt="image-20230411122954746" style="zoom: 25%;margin: 0 auto;" />
 
 Attention & Multi-Head 计算图：
 
-<img src="http://img.reedyoung.cn/image-20230411132642454.png" alt="image-20230411132642454" style="zoom: 50%;" />
+<img src="http://img.reedyoung.cn/image-20230411132642454.png" alt="image-20230411132642454" style="zoom: 50%;margin: 0 auto;" />
 
 关注Attention算法：Key-Value pair 的作用，与Query对权重的影响
 

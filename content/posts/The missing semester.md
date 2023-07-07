@@ -1,5 +1,7 @@
 ---
 title: "The missing semester"
+date: 2022-05-03T17:52:34+00:00
+tags: ['uncategorized']
 ---
 # The missing semester
 
@@ -66,9 +68,7 @@ title: "The missing semester"
 	```
 
 	这个参数可以打印出更加详细地列出目录下文件或文件夹的信息。首先，本行第一个字符 `d` 表示 `missing` 是一个目录。然后接下来的九个字符，每三个字符构成一组。 （`rwx`）. 它们分别代表了文件所有者（`missing`），用户组（`users`） 以及其他所有人具有的权限。其中 `-` 表示该用户不具备相应的权限。从上面的信息来看，只有文件所有者可以修改（`w`），`missing` 文件夹 （例如，添加或删除文件夹中的文件）。为了进入某个文件夹，用户需要具备该文件夹以及其父文件夹的“搜索”权限（“可执行`execute`”：`x`）权限表示。为了列出它的包含的内容，用户必须对该文件夹具备读权限（`r`）。对于文件来说，权限的意义也是类似的。注意，`/bin` 目录下的程序在最后一组，即表示所有人的用户组中，均包含 `x` 权限，也就是说任何人都可以执行这些程序。[`ls -l`指令详解](https://blog.csdn.net/sjzs5590/article/details/8254527)
-	
-	
-	
+
 - 几个常用命令是，例如 `mv`（`move`用于重命名或移动文件）、 `cp`（`copy`拷贝文件）以及 `mkdir`（`make directory`新建文件夹），`rm`（删除文件）。
 
 - `mv`
@@ -110,9 +110,9 @@ title: "The missing semester"
   missing:~$ cat hello2.txt
   hello
   ```
-  
+
   还可以使用 `>>` 来向一个文件追加内容。使用管道（*pipes*），能够更好的利用文件重定向。 `|` 操作符允许将一个程序的输出和另外一个程序的输入连接起来：
-  
+
   ```shell
   missing:~$ cat < hello.txt >> hello2.txt
   hello
@@ -206,5 +206,3 @@ $ echo 1 | sudo tee /sys/class/leds/input6::scrolllock/brightness
   *`symbolic link 软连接`*
 
   *`Timestamp 时间戳`*
-
-  

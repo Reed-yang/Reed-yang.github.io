@@ -1,5 +1,7 @@
 ---
 title: "question"
+date: 2022-09-15T11:16:40+00:00
+tags: ['uncategorized']
 ---
 - 几种normalization方法及其效果
 - 深度学习中 到底什么是feature？

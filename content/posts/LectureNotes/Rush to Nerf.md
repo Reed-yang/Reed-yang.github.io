@@ -1,5 +1,7 @@
 ---
 title: "Rush to Nerf"
+date: 2022-08-24T18:12:30+00:00
+tags: ['LectureNotes']
 ---
 ## Access for Lab-server
 
@@ -20,15 +22,15 @@ MLP的隐藏层，若视为矩阵变换，可以当作对输入向量的升维�
 
 - Simple RNN
 
-  - <img src="http://img.reedyoung.cn/image-20220825135328309.png" alt="image-20220825135328309" style="zoom:50%;" />
+  - <img src="http://img.reedyoung.cn/image-20220825135328309.png" alt="image-20220825135328309" style="zoom:50%;margin: 0 auto;" />
 
     $a^{<0>}$通常初始化为全零向量，设置$a^{<0>}$是为了在网络开始时满足模型的循环结构
 
-  - <img src="http://img.reedyoung.cn/image-20220825142110202.png" alt="image-20220825142110202" style="zoom: 43%;" />
+  - <img src="http://img.reedyoung.cn/image-20220825142110202.png" alt="image-20220825142110202" style="zoom: 43%;margin: 0 auto;" />
 
   - many to many问题中，更多是处理输入$x$和输出$y$长度不同的情形，因此设计了encoder-decoder模型
 
-  - <img src="http://img.reedyoung.cn/image-20220825151556263.png" alt="image-20220825151556263" style="zoom:50%;" />
+  - <img src="http://img.reedyoung.cn/image-20220825151556263.png" alt="image-20220825151556263" style="zoom:50%;margin: 0 auto;" />
 
   - Vanishing gradients**梯度消失**：在多层的网络模型中，最后计算的梯度通过反向传播很难对靠前的层进行更改
 
@@ -46,13 +48,10 @@ MLP的隐藏层，若视为矩阵变换，可以当作对输入向量的升维�
 
 - 深度RNN
 
-
 ### Attention
 
 - 注意力机制
   - query value key
-
-
 
 ### Transformer
 
@@ -68,19 +67,12 @@ MLP的隐藏层，若视为矩阵变换，可以当作对输入向量的升维�
 - **BERT**
   - NLP问题上的预训练架构
 
-
-
 ### Optimization
 
 - 小批量随机梯度下降算法
   - 梯度下降->随机梯度下降->小批量
 - 冲量法
 - Adam：效果不一定优于SGD，优点是对LR不敏感，不必过多调参
-
-
-
-
-
 
 ### Neural Rendering
 

@@ -1,9 +1,9 @@
 ---
 title: "Towards Open World Object Detection"
+date: 2022-09-23T13:28:51+00:00
+tags: ['papereading', 'open world']
 ---
 论文链接：
-
-
 
 ### Abstract
 
@@ -25,7 +25,7 @@ title: "Towards Open World Object Detection"
 
 ### Intro
 
-<img src="http://img.reedyoung.cn/image-20220923140021014.png" alt="image-20220923140021014" style="zoom: 67%;" />
+<img src="http://img.reedyoung.cn/image-20220923140021014.png" alt="image-20220923140021014" style="zoom: 67%;margin: 0 auto;" />
 
 问题对比：
 
@@ -34,26 +34,20 @@ title: "Towards Open World Object Detection"
 ### 方法
 
 - ORE
-  
+
   - Faster R-CNN 作为detector
-  
+
     ROI(region of interest) pooling
-  
+
     region proposal network
-  
+
   - contrastive learning
-  
+
   - auto-labelling unknowns with RPN
-  
+
   - Energy Based Unknown Identifier
-  
+
   - Alleviating Forgetting
-  
-
-
-
-
-
 
 ---
 
@@ -64,8 +58,6 @@ title: "Towards Open World Object Detection"
   RPN 的作用
 
 - [ ] 为什么faster r-cnn 比其他识别算法对open set效果好
-
-  
 
 - [x] 数据泄露
 

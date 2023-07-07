@@ -1,9 +1,9 @@
 ---
 title: "期待雨的降临——关于《Desolation Row》的个人理解"
+date: 2022-10-20T11:35:17+00:00
+tags: ['Scratch', 'KnowledgeDB']
 ---
 from [期待雨的降临——关于《Desolation Row》的个人理解](https://www.jianshu.com/p/db2794866c15) 
-
-
 
 《Desolation Row》是一首长达11分21秒的歌，出自Bob Dylan 1965年的专辑《重访61号公路（Highway 61 Revisited）》。尽管并不是所有人都同意这是Dylan最伟大的作品，但很少有人会否认这首歌在文学方面的艺术成就。相较于Dylan的其他歌曲，这首歌的特别之处，一是在于这首歌的歌词具有——某种类似于T·S·艾略特《荒原》的史诗感；另外一个特别之处，则在于歌词被赋予的强烈社会隐喻色彩。
 
@@ -23,8 +23,6 @@ from [期待雨的降临——关于《Desolation Row》的个人理解](https:/
 > 或是期待雨的降临
 
 但这时，我们能够做什么呢？显然，这个问题没有任何现成的答案。又或者你心里所谓的答案，也不过只是Dylan所说的那条“诺亚的彩虹”。在国外有一个Bob Dylan的讨论论坛，名字便来自于这首作品的第三段，叫“expecting rain”。或许，既然你无法纵情欢愉，也只能期待雨的降临。
-
-
 
 作者：Madao_Sun
 链接：https://www.jianshu.com/p/db2794866c15
